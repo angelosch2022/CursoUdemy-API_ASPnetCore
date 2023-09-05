@@ -18,9 +18,13 @@ namespace WebApiAutores
         public void ConfigureServices(IServiceCollection services)
         {
             //services.AddControllers();
-            services.AddControllers().AddJsonOptions(x => x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles); //para desactivar las referencias ciclicas cuando se lista una entidad en que contiene un objeto y este a su vez contiene una lista del primero
+            services.AddControllers(opciones =>
+            {
+                opciones.Filters.Add(typeof(FiltroDeExcepcion)); //aregando el filtro de excepciones de manera global
+            }
+            ).AddJsonOptions(x => x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);    //para desactivar las referencias ciclicas cuando se lista una entidad en que contiene un objeto y este a su vez contiene una lista del primero
 
-            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+           services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
 
             //
@@ -30,6 +34,8 @@ namespace WebApiAutores
             services.AddTransient<MiFiltroDeAccion>();
 
             //
+
+            services.AddHostedService<EscribirEnArchivo>();
 
             services.AddResponseCaching(); //almacenar datos en caché
 

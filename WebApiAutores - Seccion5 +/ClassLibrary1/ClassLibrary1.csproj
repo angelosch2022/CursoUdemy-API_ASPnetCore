@@ -1,0 +1,616 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{284648A4-328D-468C-B844-EADBF4310899}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ClassLibrary1</RootNamespace>
+    <AssemblyName>ClassLibrary1</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActaApertura.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ActaAperturasVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AgenciaAduanera.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Agente.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AlcosaModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AlcosaModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AlcosaModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AlcosaModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AlcosaModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Area.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Arqueo.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Articulo.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AutorizacionRetiro.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AutorizacionRetirosVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Banco.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BancoCobroPago.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BancoCobroPagosVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Caja.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Cargo.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CentroCosto.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Cliente.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ClientesVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Compra.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ComprasVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ComprobanteEgreso.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ComprobanteEgresosVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ComprobanteIngreso.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ComprobanteIngresosVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Concepto.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CondicionPago.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ConstanciaEntrega.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ConstanciaEntregasVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Contrato.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContratoNave.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContratosVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CorrelativoComprobante.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CorrelativoComprobantesVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Cotizacione.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CotizacionesVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CuentaBanco.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CuentaContable.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CuentaCorriente.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CuentaCorrientesVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Desglos.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DesglosesVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Despacho.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DespachosVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetActaApertura.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetAutorizacionRetiro.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetAutorizacionRetirosVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetBancoCobroPago.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetBancoCobroPagosVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetClienteContacto.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetCompra.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetComprasVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetConstanciaEntrega.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetConstanciaEntregaArea.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetConstanciaEntregaAreasVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetConstanciaEntregasVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetFacturado.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetFacturadosVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetGuiaRemision.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetGuiaRemisionsVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetHistorialCotizacione.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetInventario.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetInventariosVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetNotaCredito.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetNotaCreditosVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetNotaSalida.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetOrdenCompra.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetOrdenIngreso.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetOrdenIngresoArea.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetOrdenIngresoAreaKardex.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetOrdenIngresoAreaKardexsVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetOrdenIngresoAreasVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetOrdenIngresoCertificadoDeposito.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetOrdenIngresosVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetPagoPersonale.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetRequerimientoProducto.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetTransferencia.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetTransferenciasVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DetVigilanciaGuia.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DireccionCliente.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Empleado.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EmpresaTransporte.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EmpresaTransportesVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Facturado.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FacturadosVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FamiliaArticulo.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FamiliaProducto.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FamiliaProveedore.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GrupoPago.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GuiaRemision.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GuiaRemisionsVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HistorialCotizacione.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InventarioNave.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InventarioNavesVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InventariosVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Jurisdiccione.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Licencia.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MedioPago.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloOperacione.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloOperacionesVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Moneda.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MotivoAnulComprobante.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MotivoAnulContrato.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MotivoAnulOc.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MotivoAnulPagoPersonale.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MotivoTransferenciaNave.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MovCajaBanco.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MovCajaBancosVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Nave.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NotaCredito.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NotaCreditoFacAplicado.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NotaCreditosVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NotaDebito.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NotaDebitosVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NotaSalida.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Operacione.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrdenCompra.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrdenComprasVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrdenIngreso.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrdenIngresosVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrigenDestino.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PagoPersonale.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PagoPersonalesVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Pais.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PaisesAnt.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Parametro.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Pesado.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PesadosVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Producto.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProductosVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proveedore.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReciboHonorario.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReciboHonorariosVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RequerimientoProducto.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RequerimientoProductosVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Rubro.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RubrosVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Seccione.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ServicioPrestado.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ServicioPrestadosVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SubArea.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagram.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Tarifa.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TarifasVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TerminalAlmacenamiento.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TipoCambio.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TipoCliente.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TipoComprobantePago.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TipoContenedor.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TipoDocIdentidade.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TipoFacturacione.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TipoIgv.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TipoIngreso.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TipoMercaderia.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TipoNotaCredito.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TipoNotaDebito.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TipoRetiro.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TipoTransporte.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Transferencia.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TransferenciaNave.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TransferenciaNavesVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TransferenciasVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Transportista.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Ubigeo.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UnidadBulto.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UnidadComerciale.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Unidade.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UnidadFisica.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Vigilancia.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="VigilanciasVi.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Zona.cs">
+      <DependentUpon>AlcosaModel.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="AlcosaModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>AlcosaModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AlcosaModel.edmx.diagram">
+      <DependentUpon>AlcosaModel.edmx</DependentUpon>
+    </None>
+    <None Include="App.Config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AlcosaModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>AlcosaModel.Context.cs</LastGenOutput>
+      <DependentUpon>AlcosaModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="AlcosaModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AlcosaModel.edmx</DependentUpon>
+      <LastGenOutput>AlcosaModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

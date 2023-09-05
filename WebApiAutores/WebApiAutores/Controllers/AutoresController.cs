@@ -29,6 +29,7 @@ namespace WebApiAutores.Controllers
         [ServiceFilter(typeof(MiFiltroDeAccion))] // Filtro personalizado
         public async Task<ActionResult<List<Autor>>> Get()
         {
+            throw new NotImplementedException();
             log.LogInformation("Estamos Listando todos los Autores");
             //return await context.Autores.ToListAsync();
             return await context.Autores.Include(x => x.Libros).ToListAsync(); //incluye el listado de libros

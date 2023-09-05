@@ -86,3 +86,9 @@ F:\Cursos UDEMY\Api con ASPNEt Core\WebApiAutores\WebApiAutores\bin\Debug\net6.0
 F:\Cursos UDEMY\Api con ASPNEt Core\WebApiAutores\WebApiAutores\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 F:\Cursos UDEMY\Api con ASPNEt Core\WebApiAutores\WebApiAutores\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 F:\Cursos UDEMY\Api con ASPNEt Core\WebApiAutores\WebApiAutores\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\Cursos UDEMY\Api con ASPNEt Core\WebApiAutores\WebApiAutores\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+F:\Cursos UDEMY\Api con ASPNEt Core\WebApiAutores\WebApiAutores\bin\Debug\net6.0\EntityFramework.dll
+F:\Cursos UDEMY\Api con ASPNEt Core\WebApiAutores\WebApiAutores\bin\Debug\net6.0\ClassLibrary1.dll
+F:\Cursos UDEMY\Api con ASPNEt Core\WebApiAutores\WebApiAutores\bin\Debug\net6.0\ClassLibrary1.pdb
+F:\Cursos UDEMY\Api con ASPNEt Core\WebApiAutores\WebApiAutores\bin\Debug\net6.0\ClassLibrary1.dll.config
+F:\Cursos UDEMY\Api con ASPNEt Core\WebApiAutores\WebApiAutores\bin\Debug\net6.0\WebApiAutores.staticwebassets.runtime.json
