@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4pRokdDUSWLEUrvx1dzdeXYBivju5OQ4jx+VGT41fdw=",
+  "Hash": "i/Nw9iRLsza8yPLYBym7B1hCBsWyMyCjDgz+sG0nvaw=",
   "Source": "WebApiAutores",
   "BasePath": "_content/WebApiAutores",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "WebApiAutores\\wwwroot",
       "Source": "WebApiAutores",
-      "ContentRoot": "F:\\Cursos UDEMY\\Api con ASPNEt Core\\WebApiAutores - Seccion5 +\\WebApiAutores\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\CursoUdemy-API_ASPnetCore\\WebApiAutores - Seccion5 +\\WebApiAutores\\wwwroot\\",
       "BasePath": "_content/WebApiAutores",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "F:\\Cursos UDEMY\\Api con ASPNEt Core\\WebApiAutores - Seccion5 +\\WebApiAutores\\wwwroot\\Archivo 1.txt",
+      "Identity": "C:\\Users\\user\\Desktop\\CursoUdemy-API_ASPnetCore\\WebApiAutores - Seccion5 +\\WebApiAutores\\wwwroot\\Archivo 1.txt",
       "SourceId": "WebApiAutores",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Cursos UDEMY\\Api con ASPNEt Core\\WebApiAutores - Seccion5 +\\WebApiAutores\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\CursoUdemy-API_ASPnetCore\\WebApiAutores - Seccion5 +\\WebApiAutores\\wwwroot\\",
       "BasePath": "_content/WebApiAutores",
       "RelativePath": "Archivo 1.txt",
       "AssetKind": "All",

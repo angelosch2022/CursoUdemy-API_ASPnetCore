@@ -2397,23 +2397,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\angel\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Cursos UDEMY\\Api con ASPNEt Core\\WebApiAutores - Seccion5 +\\WebApiAutores\\WebApiAutores.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\CursoUdemy-API_ASPnetCore\\WebApiAutores - Seccion5 +\\WebApiAutores\\WebApiAutores.csproj",
       "projectName": "WebApiAutores",
-      "projectPath": "F:\\Cursos UDEMY\\Api con ASPNEt Core\\WebApiAutores - Seccion5 +\\WebApiAutores\\WebApiAutores.csproj",
-      "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
-      "outputPath": "F:\\Cursos UDEMY\\Api con ASPNEt Core\\WebApiAutores - Seccion5 +\\WebApiAutores\\obj\\",
+      "projectPath": "C:\\Users\\user\\Desktop\\CursoUdemy-API_ASPnetCore\\WebApiAutores - Seccion5 +\\WebApiAutores\\WebApiAutores.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\CursoUdemy-API_ASPnetCore\\WebApiAutores - Seccion5 +\\WebApiAutores\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2481,7 +2477,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
