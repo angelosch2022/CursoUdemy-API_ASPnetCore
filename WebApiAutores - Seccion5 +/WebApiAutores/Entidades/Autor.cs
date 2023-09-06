@@ -14,5 +14,8 @@ namespace WebApiAutores.Entidades
         [PrimeraLetraMayuscula] // validacion personalizada
         public string Nombre { get; set; }
 
+        public List<AutorLibro> AutoresLibros { get; set; }
+
+
     }
 }

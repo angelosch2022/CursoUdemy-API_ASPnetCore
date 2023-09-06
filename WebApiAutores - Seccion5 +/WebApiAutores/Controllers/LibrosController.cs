@@ -24,27 +24,61 @@ namespace WebApiAutores.Controllers
         [HttpGet]
         public async Task<ActionResult<List<LibroDTO>>> Get()
         {
-            var libros = await context.Libros.ToListAsync();
+            var libros = await context.Libros
+                .ToListAsync();
 
             return mapper.Map<List<LibroDTO>>(libros);
         }
 
 
-        [HttpGet("{id:int}")]
-        public async Task<ActionResult<LibroDTO>> Get(int id)
-        {            var libro = await context.Libros.FirstOrDefaultAsync(x => x.Id == id);
-            return mapper.Map<LibroDTO>(libro);
+        /*       [HttpGet("{id:int}")]
+               public async Task<ActionResult<LibroDTO>> Get(int id)
+               {
+                   var libro = await context.Libros
+                       .Include(x => x.Comentarios)
+                       .FirstOrDefaultAsync(x => x.Id == id);
+                   return mapper.Map<LibroDTO>(libro);
+               }
+
+               */
+
+        [HttpGet("{id:int}", Name = "obtenerLibro")]
+        public async Task<ActionResult<LibroDTOConAutores>> Get(int id)
+        {
+            var libro = await context.Libros
+                .Include(x => x.Comentarios)
+                .Include(x => x.AutoresLibros)
+                .ThenInclude(x=> x.Autor)
+                .FirstOrDefaultAsync(x => x.Id == id);
+            return mapper.Map<LibroDTOConAutores>(libro);
         }
 
 
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody]LibroCreacionDTO libroCreacionDTO)
+        public async Task<ActionResult> Post(LibroCreacionDTO libroCreacionDTO)
         {
+            if (libroCreacionDTO.AutoresIds == null)
+            {
+                return BadRequest("No se puede crear un libro sin autores");
+            }
+
+            var autoresIds = await context.Autores
+                .Where(x => libroCreacionDTO.AutoresIds.Contains(x.Id))
+                .Select(x => x.Id).ToListAsync();
+
+            if (libroCreacionDTO.AutoresIds.Count != autoresIds.Count)
+            {
+                return BadRequest("No existe uno de los autores enviados");
+            }
+
             var libro = mapper.Map<Libro>(libroCreacionDTO);
 
             context.Add(libro);
             await context.SaveChangesAsync();
-            return Ok();
+
+            var libroDTO = mapper.Map<LibroDTO>(libro);
+
+            return CreatedAtRoute("obtenerLibro", new { id = libro.Id}, libroDTO); //SE USA COMO BUENA PRACTICA QUE DEVUELVA LA RUTA DEL OBJETO CREADO, EL ID, Y EL OBJETO
         }
     }
 }

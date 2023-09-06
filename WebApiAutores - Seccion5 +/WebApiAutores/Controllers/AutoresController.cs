@@ -26,22 +26,27 @@ namespace WebApiAutores.Controllers
         [HttpGet] // api/autores
         public async Task<ActionResult<List<AutorDTO>>> Get()
         {
-            var autores =  await context.Autores.ToListAsync(); //incluye el listado de libros
+            var autores =  await context.Autores
+                .ToListAsync(); 
+
             return mapper.Map<List<AutorDTO>>(autores);
         }
 
 
-        [HttpGet("{id:int}")] //:int --> obliga a que el parametro sea entero
-        public async Task<ActionResult<AutorDTO>> Get(int id) //param2 es opcional
+        [HttpGet("{id:int}",Name = "obtenerAutor")] //:int --> obliga a que el parametro sea entero
+        public async Task<ActionResult<AutorDTOConLibros>> Get(int id) //param2 es opcional
         {
-            var autor = await context.Autores.FirstOrDefaultAsync(autorBD => autorBD.Id == id);
+            var autor = await context.Autores
+                .Include(autorDB=> autorDB.AutoresLibros)
+                .ThenInclude(autorLibroDB => autorLibroDB.Libro)
+                .FirstOrDefaultAsync(autorBD => autorBD.Id == id);
 
             if(autor == null)
             {
                 return NotFound();
             }
 
-            return mapper.Map<AutorDTO>(autor);
+            return mapper.Map<AutorDTOConLibros>(autor);
         }
 
         [HttpGet("{nombre}")]
@@ -74,16 +79,20 @@ namespace WebApiAutores.Controllers
 
             context.Add(autor);
             await context.SaveChangesAsync();
-            return Ok();
+            //return Ok();
+
+            var autorDTO = mapper.Map<AutorDTO>(autor);
+
+            return CreatedAtRoute("obtenerAutor", new { id = autor.Id}, autorDTO); //SE USA COMO BUENA PRACTICA QUE DEVUELVA LA RUTA DEL OBJETO CREADO, EL ID, Y EL OBJETO
         }
 
         [HttpPut("{id:int}")] //api/autores/2
-        public async Task<ActionResult> Put (Autor autor, int id)
+        public async Task<ActionResult> Put (AutorCreacionDTO autorcreacionDTO, int id)
         {
-            if(autor.Id != id)
-            {
-                return BadRequest("El id del autor no coincide con el id de la Url");
-            }
+            //if(autor.Id != id)
+            //{
+            //    return BadRequest("El id del autor no coincide con el id de la Url");
+            //}
 
             var existe = await context.Autores.AnyAsync(x => x.Id == id);
             if (!existe)
@@ -91,9 +100,13 @@ namespace WebApiAutores.Controllers
                 return NotFound();
             }
 
+            var autor = mapper.Map<Autor>(autorcreacionDTO);
+            autor.Id = id;
+
             context.Update(autor);
             await context.SaveChangesAsync();
-            return Ok();
+
+            return NoContent();
         }
 
         [HttpDelete("{id:int}")]//api/autores/1

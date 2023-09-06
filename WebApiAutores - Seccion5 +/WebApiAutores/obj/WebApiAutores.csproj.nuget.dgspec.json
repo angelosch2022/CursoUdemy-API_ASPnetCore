@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\CursoUdemy-API_ASPnetCore\\WebApiAutores - Seccion5 +\\WebApiAutores\\WebApiAutores.csproj": {}
+    "F:\\Cursos UDEMY\\Api con ASPNEt Core\\WebApiAutores - Seccion5 +\\WebApiAutores\\WebApiAutores.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\CursoUdemy-API_ASPnetCore\\WebApiAutores - Seccion5 +\\WebApiAutores\\WebApiAutores.csproj": {
+    "F:\\Cursos UDEMY\\Api con ASPNEt Core\\WebApiAutores - Seccion5 +\\WebApiAutores\\WebApiAutores.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\CursoUdemy-API_ASPnetCore\\WebApiAutores - Seccion5 +\\WebApiAutores\\WebApiAutores.csproj",
+        "projectUniqueName": "F:\\Cursos UDEMY\\Api con ASPNEt Core\\WebApiAutores - Seccion5 +\\WebApiAutores\\WebApiAutores.csproj",
         "projectName": "WebApiAutores",
-        "projectPath": "C:\\Users\\user\\Desktop\\CursoUdemy-API_ASPnetCore\\WebApiAutores - Seccion5 +\\WebApiAutores\\WebApiAutores.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\CursoUdemy-API_ASPnetCore\\WebApiAutores - Seccion5 +\\WebApiAutores\\obj\\",
+        "projectPath": "F:\\Cursos UDEMY\\Api con ASPNEt Core\\WebApiAutores - Seccion5 +\\WebApiAutores\\WebApiAutores.csproj",
+        "packagesPath": "C:\\Users\\angel\\.nuget\\packages\\",
+        "outputPath": "F:\\Cursos UDEMY\\Api con ASPNEt Core\\WebApiAutores - Seccion5 +\\WebApiAutores\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\angel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
