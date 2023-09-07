@@ -3,8 +3,9 @@ using WebApiAutores.Validaciones;
 
 namespace WebApiAutores.DTOs
 {
-    public class LibroCreacionDTO
+    public class LibroPatchDTO
     {
+
         [PrimeraLetraMayuscula] // validacion personalizada
         [StringLength(maximumLength: 120, ErrorMessage = "El campo {0} no debe tener mas de {1} caracteres")]
         [Required]

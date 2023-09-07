@@ -80,5 +80,28 @@ namespace WebApiAutores.Controllers
 
             return CreatedAtRoute("obtenerLibro", new { id = libro.Id}, libroDTO); //SE USA COMO BUENA PRACTICA QUE DEVUELVA LA RUTA DEL OBJETO CREADO, EL ID, Y EL OBJETO
         }
+
+        
+        
+        [HttpPut("{id:int}")]
+        public async Task<ActionResult> Put(int id, LibroCreacionDTO libroCreacionDTO)
+        {
+            var libroDB = await context.Libros
+                .Include(x => x.AutoresLibros)
+                .FirstOrDefaultAsync( x => x.Id == id);
+
+            if(libroDB == null)
+            {
+                return NotFound();
+            }
+
+            libroDB = mapper.Map(libroCreacionDTO,libroDB); //con esto auomaticamente se actualiza el libro
+
+            await context.SaveChangesAsync();
+
+            return NoContent();
+
+        }
+
     }
 }
