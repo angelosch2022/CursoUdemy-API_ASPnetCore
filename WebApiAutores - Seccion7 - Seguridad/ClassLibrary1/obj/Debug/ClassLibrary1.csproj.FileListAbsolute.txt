@@ -1,0 +1,12 @@
+F:\Cursos UDEMY\Api con ASPNEt Core\WebApiAutores\ClassLibrary1\bin\Debug\ClassLibrary1.dll.config
+F:\Cursos UDEMY\Api con ASPNEt Core\WebApiAutores\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+F:\Cursos UDEMY\Api con ASPNEt Core\WebApiAutores\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+F:\Cursos UDEMY\Api con ASPNEt Core\WebApiAutores\ClassLibrary1\bin\Debug\EntityFramework.dll
+F:\Cursos UDEMY\Api con ASPNEt Core\WebApiAutores\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.dll
+F:\Cursos UDEMY\Api con ASPNEt Core\WebApiAutores\ClassLibrary1\bin\Debug\EntityFramework.xml
+F:\Cursos UDEMY\Api con ASPNEt Core\WebApiAutores\ClassLibrary1\bin\Debug\EntityFramework.SqlServer.xml
+F:\Cursos UDEMY\Api con ASPNEt Core\WebApiAutores\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.AssemblyReference.cache
+F:\Cursos UDEMY\Api con ASPNEt Core\WebApiAutores\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CoreCompileInputs.cache
+F:\Cursos UDEMY\Api con ASPNEt Core\WebApiAutores\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CopyComplete
+F:\Cursos UDEMY\Api con ASPNEt Core\WebApiAutores\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+F:\Cursos UDEMY\Api con ASPNEt Core\WebApiAutores\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

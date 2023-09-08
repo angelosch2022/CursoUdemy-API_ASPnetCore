@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0ac6e5332aae404fada04a65c514cc38" Name="Diagram1">
+        <EntityTypeShape EntityType="AlcosaModel.ActaApertura" Width="1.5" PointX="3" PointY="117" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.AgenciaAduanera" Width="1.5" PointX="6" PointY="140.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Agente" Width="1.5" PointX="17" PointY="137.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Area" Width="1.5" PointX="17.75" PointY="103.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Arqueo" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Articulo" Width="1.5" PointX="6" PointY="116.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.AutorizacionRetiro" Width="1.5" PointX="9" PointY="115.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.BancoCobroPago" Width="1.5" PointX="3" PointY="110.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Banco" Width="1.5" PointX="1.5" PointY="105.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Caja" Width="1.5" PointX="3" PointY="136.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Cargo" Width="1.5" PointX="9.75" PointY="102" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.CentroCosto" Width="1.5" PointX="3.75" PointY="97" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Cliente" Width="1.5" PointX="3" PointY="122.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Compra" Width="1.5" PointX="6" PointY="106.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.ComprobanteEgreso" Width="1.5" PointX="5.25" PointY="122.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.ComprobanteIngreso" Width="1.5" PointX="8.25" PointY="124.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Concepto" Width="1.5" PointX="9" PointY="111.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.CondicionPago" Width="1.5" PointX="3.75" PointY="99.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.ConstanciaEntrega" Width="1.5" PointX="19.25" PointY="119.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.ContratoNave" Width="1.5" PointX="16.5" PointY="131.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Contrato" Width="1.5" PointX="11.25" PointY="127.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.CorrelativoComprobante" Width="1.5" PointX="11" PointY="123.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Cotizacione" Width="1.5" PointX="19.25" PointY="126.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.CuentaBanco" Width="1.5" PointX="0.75" PointY="109.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.CuentaContable" Width="1.5" PointX="3.75" PointY="102.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.CuentaCorriente" Width="1.5" PointX="16.5" PointY="134.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Desglos" Width="1.5" PointX="21.75" PointY="134.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Despacho" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetActaApertura" Width="1.5" PointX="14.25" PointY="112.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetAutorizacionRetiro" Width="1.5" PointX="20.25" PointY="113.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetBancoCobroPago" Width="1.5" PointX="16.25" PointY="115.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetClienteContacto" Width="1.5" PointX="5.25" PointY="130.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetCompra" Width="1.5" PointX="8.25" PointY="107.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetConstanciaEntregaArea" Width="1.5" PointX="27.5" PointY="121.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetConstanciaEntrega" Width="1.5" PointX="25.5" PointY="112" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetFacturado" Width="1.5" PointX="32.75" PointY="132.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetGuiaRemision" Width="1.5" PointX="35" PointY="134.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetHistorialCotizacione" Width="1.5" PointX="26.75" PointY="125.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetInventario" Width="1.5" PointX="5.25" PointY="172.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetNotaCredito" Width="1.5" PointX="35" PointY="118.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetNotaSalida" Width="1.5" PointX="14.25" PointY="109" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetOrdenCompra" Width="1.5" PointX="17.25" PointY="111.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetOrdenIngresoAreaKardex" Width="1.5" PointX="13.5" PointY="140.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetOrdenIngresoArea" Width="1.5" PointX="29.75" PointY="132.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetOrdenIngresoCertificadoDeposito" Width="1.5" PointX="10.5" PointY="141.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetOrdenIngreso" Width="1.5" PointX="19.5" PointY="135.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetPagoPersonale" Width="1.5" PointX="5.25" PointY="136.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetRequerimientoProducto" Width="1.5" PointX="25.5" PointY="115.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetTransferencia" Width="1.5" PointX="5.25" PointY="194.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetVigilanciaGuia" Width="1.5" PointX="24.5" PointY="130.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DireccionCliente" Width="1.5" PointX="5.25" PointY="146.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Empleado" Width="1.5" PointX="12" PointY="116.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.EmpresaTransporte" Width="1.5" PointX="6" PointY="156.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Facturado" Width="1.5" PointX="27.5" PointY="128.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.FamiliaArticulo" Width="1.5" PointX="3.75" PointY="85.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.FamiliaProducto" Width="1.5" PointX="12" PointY="144.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.FamiliaProveedore" Width="1.5" PointX="1.5" PointY="150.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.GrupoPago" Width="1.5" PointX="9.75" PointY="99.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.GuiaRemision" Width="1.5" PointX="29.75" PointY="125.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.HistorialCotizacione" Width="1.5" PointX="21.5" PointY="131.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.InventarioNave" Width="1.5" PointX="14.25" PointY="130.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Inventario" Width="1.5" PointX="3" PointY="172.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Jurisdiccione" Width="1.5" PointX="3.75" PointY="160.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Licencia" Width="1.5" PointX="9" PointY="148.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.MedioPago" Width="1.5" PointX="3.75" PointY="92.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.ModuloOperacione" Width="1.5" PointX="12" PointY="112.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Modulo" Width="1.5" PointX="9.75" PointY="97.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Moneda" Width="1.5" PointX="3.75" PointY="88.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.MotivoAnulComprobante" Width="1.5" PointX="25.25" PointY="135.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.MotivoAnulContrato" Width="1.5" PointX="9" PointY="145.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.MotivoAnulOc" Width="1.5" PointX="26.25" PointY="109.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.MotivoAnulPagoPersonale" Width="1.5" PointX="18" PointY="97.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.MotivoTransferenciaNave" Width="1.5" PointX="15" PointY="106.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.MovCajaBanco" Width="1.5" PointX="16.5" PointY="128.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Nave" Width="1.5" PointX="6" PointY="150.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.NotaCreditoFacAplicado" Width="1.5" PointX="29.75" PointY="137.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.NotaCredito" Width="1.5" PointX="32.75" PointY="118.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.NotaDebito" Width="1.5" PointX="35.75" PointY="123.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.NotaSalida" Width="1.5" PointX="12" PointY="108.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Operacione" Width="1.5" PointX="9.75" PointY="94.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.OrdenCompra" Width="1.5" PointX="28.5" PointY="113.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.OrdenIngreso" Width="1.5" PointX="8.25" PointY="132.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.OrigenDestino" Width="1.5" PointX="9.75" PointY="105.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.PagoPersonale" Width="1.5" PointX="20.25" PointY="108" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Pais" Width="1.5" PointX="0.75" PointY="126" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.PaisesAnt" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Parametro" Width="1.5" PointX="24.5" PointY="120.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Pesado" Width="1.5" PointX="32.75" PointY="126.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Producto" Width="1.5" PointX="14.25" PointY="135" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Proveedore" Width="1.5" PointX="3.75" PointY="150.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.ReciboHonorario" Width="1.5" PointX="14" PointY="122.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.RequerimientoProducto" Width="1.5" PointX="23.25" PointY="114.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Rubro" Width="1.5" PointX="16.25" PointY="121.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Seccione" Width="1.5" PointX="22.25" PointY="102.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.ServicioPrestado" Width="1.5" PointX="21.5" PointY="120.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.SubArea" Width="1.5" PointX="20" PointY="103.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.sysdiagram" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Tarifa" Width="1.5" PointX="21.5" PointY="126.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.TerminalAlmacenamiento" Width="1.5" PointX="6" PointY="159.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.TipoCambio" Width="1.5" PointX="3" PointY="191" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.TipoCliente" Width="1.5" PointX="0.75" PointY="128.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.TipoComprobantePago" Width="1.5" PointX="3.75" PointY="140.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.TipoContenedor" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.TipoDocIdentidade" Width="1.5" PointX="1.5" PointY="153.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.TipoFacturacione" Width="1.5" PointX="25.25" PointY="138.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.TipoIgv" Width="1.5" PointX="32.75" PointY="111.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.TipoIngreso" Width="1.5" PointX="6" PointY="163.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.TipoMercaderia" Width="1.5" PointX="12" PointY="147.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.TipoNotaCredito" Width="1.5" PointX="30.5" PointY="121.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.TipoNotaDebito" Width="1.5" PointX="33.5" PointY="114.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.TipoRetiro" Width="1.5" PointX="17" PointY="100.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.TipoTransporte" Width="1.5" PointX="3.75" PointY="156.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.TransferenciaNave" Width="1.5" PointX="17.25" PointY="106.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Transferencia" Width="1.5" PointX="3" PointY="194.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Transportista" Width="1.5" PointX="0.75" PointY="101.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.UnidadBulto" Width="1.5" PointX="6" PointY="165.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.UnidadComerciale" Width="1.5" PointX="17.25" PointY="141.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Unidade" Width="1.5" PointX="3.75" PointY="166" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.UnidadFisica" Width="1.5" PointX="17.25" PointY="144" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Usuario" Width="1.5" PointX="0.75" PointY="113.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Vigilancia" Width="1.5" PointX="11.25" PointY="136.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Zona" Width="1.5" PointX="17.25" PointY="146.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.Ubigeo" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.ActaAperturasVi" Width="1.5" PointX="6.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.AutorizacionRetirosVi" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.BancoCobroPagosVi" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.ClientesVi" Width="1.5" PointX="2.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.ComprasVi" Width="1.5" PointX="4.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.ComprobanteEgresosVi" Width="1.5" PointX="6.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.ComprobanteIngresosVi" Width="1.5" PointX="8.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.ConstanciaEntregasVi" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.ContratosVi" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.CorrelativoComprobantesVi" Width="1.5" PointX="12.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.CotizacionesVi" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.CuentaCorrientesVi" Width="1.5" PointX="14.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DesglosesVi" Width="1.5" PointX="10.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DespachosVi" Width="1.5" PointX="16.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetAutorizacionRetirosVi" Width="1.5" PointX="0.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetBancoCobroPagosVi" Width="1.5" PointX="16.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetComprasVi" Width="1.5" PointX="16.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetConstanciaEntregaAreasVi" Width="1.5" PointX="12.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetConstanciaEntregasVi" Width="1.5" PointX="18.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetFacturadosVi" Width="1.5" PointX="18.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetGuiaRemisionsVi" Width="1.5" PointX="20.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetInventariosVi" Width="1.5" PointX="8.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetNotaCreditosVi" Width="1.5" PointX="20.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetOrdenIngresoAreaKardexsVi" Width="1.5" PointX="18.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetOrdenIngresoAreasVi" Width="1.5" PointX="20.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetOrdenIngresosVi" Width="1.5" PointX="10.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.DetTransferenciasVi" Width="1.5" PointX="12.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.EmpresaTransportesVi" Width="1.5" PointX="22.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.FacturadosVi" Width="1.5" PointX="2.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.GuiaRemisionsVi" Width="1.5" PointX="22.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.InventarioNavesVi" Width="1.5" PointX="4.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.InventariosVi" Width="1.5" PointX="22.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.ModuloOperacionesVi" Width="1.5" PointX="22.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.MovCajaBancosVi" Width="1.5" PointX="22.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.NotaCreditosVi" Width="1.5" PointX="24.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.NotaDebitosVi" Width="1.5" PointX="6.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.OrdenComprasVi" Width="1.5" PointX="24.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.OrdenIngresosVi" Width="1.5" PointX="24.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.PagoPersonalesVi" Width="1.5" PointX="26.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.PesadosVi" Width="1.5" PointX="26.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.ProductosVi" Width="1.5" PointX="12.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.ReciboHonorariosVi" Width="1.5" PointX="26.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.RequerimientoProductosVi" Width="1.5" PointX="14.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.RubrosVi" Width="1.5" PointX="16.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.ServicioPrestadosVi" Width="1.5" PointX="26.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.TarifasVi" Width="1.5" PointX="18.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.TransferenciaNavesVi" Width="1.5" PointX="28.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.TransferenciasVi" Width="1.5" PointX="28.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AlcosaModel.VigilanciasVi" Width="1.5" PointX="28.75" PointY="10.75" IsExpanded="true" />
+        <AssociationConnector Association="AlcosaModel.FK_ActaAperturas_OrdenIngresos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ActaAperturas_Transportistas" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ActaAperturas_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetActaAperturas_ActaAperturas" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_OrdenIngresos_AgenciaAduaneras" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Agentes_TipoDocIdentidades" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Cotizaciones_Agentes" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_SubAreas_Areas" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Articulos_CuentaContables" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Articulos_FamiliaArticulos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Articulos_Proveedores" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Articulos_Unidades" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Articulos_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetOrdenCompras_Articulos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_AutorizacionRetiros_Bancos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_AutorizacionRetiros_Clientes" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_AutorizacionRetiros_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ConstanciaEntregas_AutorizacionRetiros" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetAutorizacionRetiros_AutorizacionRetiros" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Pesados_AutorizacionRetiros" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ServicioPrestados_AutorizacionRetiros" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_BancoCobroPagos_CuentaBancos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_BancoCobroPagos_Monedas" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_BancoCobroPagos_Rubros" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_BancoCobroPagos_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetBancoCobroPagos_BancoCobroPagos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Bancos_CuentaContables" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_CuentaBancos_Bancos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Cajas_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ComprobanteEgresos_Cajas" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ComprobanteIngresos_Cajas" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetPagoPersonales_Cajas" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetClienteContactos_Cargos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Empleados_Cargos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Compras_CentroCostos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetBancoCobroPagos_CentroCostos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Secciones_CentroCostos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Clientes_Paises" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Clientes_TipoClientes" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Clientes_TipoDocIdentidades" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Clientes_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ComprobanteIngresos_Clientes" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ConstanciaEntregas_Clientes" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Contratos_Clientes" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Cotizaciones_Clientes" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetClienteContactos_Clientes" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DireccionClientes_Clientes" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Facturados_Clientes" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_InventarioNaves_Clientes" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_OrdenIngresos_Clientes" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Productos_Clientes" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Tarifas_Clientes" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_TransferenciaNaves_Clientes" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Vigilancias_Clientes" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Compras_CondicionPagos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Compras_CuentaContables" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Compras_MedioPagos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Compras_Monedas" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Compras_Proveedores" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Compras_TipoComprobantePagos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Compras_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ComprobanteEgresos_Compras" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetBancoCobroPagos_Compras" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetCompras_Compras" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ComprobanteEgresos_ComprobanteEgresos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ComprobanteEgresos_Empleados" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ComprobanteEgresos_MedioPagos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ComprobanteEgresos_Monedas" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ComprobanteEgresos_MotivoAnulComprobantes" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ComprobanteEgresos_Proveedores" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ComprobanteEgresos_ReciboHonorarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ComprobanteEgresos_Rubros" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ComprobanteEgresos_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_MovCajaBancos_ComprobanteEgresos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ComprobanteIngresos_Empleados" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ComprobanteIngresos_MedioPagos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ComprobanteIngresos_Monedas" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ComprobanteIngresos_MotivoAnulComprobantes" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ComprobanteIngresos_NotaDebitos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ComprobanteIngresos_Rubros" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ComprobanteIngresos_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_MovCajaBancos_ComprobanteIngresos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Conceptos1_CuentaContables" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Conceptos1_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Rubros_Conceptos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Facturados_CondicionPagos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ConstanciaEntregas_Empleados" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ConstanciaEntregas_TipoRetiros" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ConstanciaEntregas_Transportistas" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ConstanciaEntregas_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ConstanciaEntregas_Vigilancias" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetConstanciaEntregaAreas_ConstanciaEntregas" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetConstanciaEntregas_ConstanciaEntregas" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ContratoNaves_Contratos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ContratoNaves_Naves" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Contratos_Contratos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Contratos_Cotizaciones" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Contratos_Monedas" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Contratos_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_CuentaCorrientes_Contratos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Facturados_Contratos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_CorrelativoComprobantes_TipoComprobantePagos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_CorrelativoComprobantes_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Cotizaciones_Empleados" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Cotizaciones_Monedas" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Cotizaciones_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_HistorialCotizaciones_Cotizaciones" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_CuentaBancos_Monedas" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetBancoCobroPagos_CuentaContables" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_FamiliaArticulos_CuentaContables" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_NotaDebitos_CuentaContables" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Parametros_CuentaContables" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Parametros_CuentaContables1" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Parametros_CuentaContables2" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Parametros_CuentaContables3" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Parametros_CuentaContables4" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Parametros_CuentaContables5" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Parametros_CuentaContables6" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Parametros_CuentaContables7" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Parametros_CuentaContables8" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Parametros_CuentaContables9" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ReciboHonorarios_CuentaContables" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ReciboHonorarios_CuentaContables1" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Rubros_CuentaContables" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_CuentaCorrientes_Facturados" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Desgloses_DetOrdenIngresos1" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Desgloses_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetActaAperturas_GuiaRemisions" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetAutorizacionRetiros_DetOrdenIngresos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetConstanciaEntregas_DetAutorizacionRetiros" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetVigilanciaGuias_DetAutorizacionRetiros" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetBancoCobroPagos_Facturados" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetBancoCobroPagos_NotaDebitos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetBancoCobroPagos_ReciboHonorarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetConstanciaEntregaAreas_Naves" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetFacturados_Facturados" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetFacturados_Rubros" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetFacturados_TipoIgvs" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetFacturados_Unidades" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetGuiaRemisions_DetOrdenIngresos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetGuiaRemisions_GuiaRemisions" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetHistorialCotizaciones_HistorialCotizaciones" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetHistorialCotizaciones_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetInventarios_Inventarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetNotaCreditos_NotaCreditos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetNotaCreditos_Rubros" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetNotaCreditos_TipoIgvs" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetNotaCreditos_Unidades" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetNotaSalidas_NotaSalidas" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetOrdenCompras_OrdenCompras" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetOrdenIngresoAreaKardexs_Naves" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetOrdenIngresoAreaKardexs_OrdenIngresos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetOrdenIngresoAreas_Empleados" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetOrdenIngresoAreas_Facturados" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetOrdenIngresoAreas_Naves" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetOrdenIngresoAreas_OrdenIngresos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetOrdenIngresoCertificadoDepositos_OrdenIngresos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetOrdenIngresos_Naves" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetOrdenIngresos_OrdenIngresos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetOrdenIngresos_Productos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetOrdenIngresos_TipoMercaderias" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetOrdenIngresos_UnidadBultos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetOrdenIngresos_UnidadComerciales" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetOrdenIngresos_UnidadFisicas" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetOrdenIngresos_Zonas" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetPagoPersonales_MedioPagos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetPagoPersonales_PagoPersonales" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetRequerimientoProductos_RequerimientoProductos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetTransferencias_Transferencias" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_DetVigilanciaGuias_Vigilancias" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_GuiaRemisions_DetVigilanciaGuias" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Pesados_DetVigilanciaGuias" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Empleados_GrupoPagos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Empleados_TipoDocIdentidades" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Empleados_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_GuiaRemisions_Empleados" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_PagoPersonales_Empleados" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_RequerimientoProductos_Empleados" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_EmpresaTransportes_TipoTransportes" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_OrdenIngresos_EmpresaTransportes" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Facturados_Monedas" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Facturados_MotivoAnulComprobantes" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Facturados_TipoComprobantePagos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Facturados_TipoFacturaciones" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Facturados_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_NotaCreditoFacAplicados_Facturados" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_NotaCreditos_Facturados" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_NotaDebitos_Facturados" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ServicioPrestados_Facturados" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Productos_FamiliaProductos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Proveedores_FamiliaProveedores" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_GuiaRemisions_OrdenIngresos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_GuiaRemisions_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_IdInventarioNaves_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_InventarioNaves_Naves" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Inventarios_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_TerminalAlmacenamientos_Jurisdicciones" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Vigilancias_Licencias" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_OrdenCompras_MedioPagos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ModuloOperaciones_Modulos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ModuloOperaciones_Operaciones" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ModuloOperaciones_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_OrdenCompras_Monedas" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ReciboHonorarios_Monedas" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_NotaCreditos_MotivoAnulComprobantes" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_NotaDebitos_MotivoAnulComprobantes" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_OrdenCompras_MotivoAnulOcs" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_PagoPersonales_MotivoAnulPagoPersonales" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_TransferenciaNaves_MotivoTransferenciaNaves" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_OrdenIngresos_Naves" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_TransferenciaNaves_Naves" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_TransferenciaNaves_Naves1" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_NotaCreditoFacAplicados_NotaCreditos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_NotaCreditos_TipoNotaCreditos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_NotaCreditos_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_NotaDebitos_TipoNotaDebitos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_NotaDebitos_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_NotaSalidas_OrigenDestinos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_NotaSalidas_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_OrdenCompras_Proveedores" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_OrdenCompras_RequerimientoProductos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_OrdenCompras_Secciones" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_OrdenCompras_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_OrdenIngresos_TerminalAlmacenamientos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_OrdenIngresos_TipoIngresos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_OrdenIngresos_TipoTransportes" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_OrdenIngresos_UnidadBultos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_OrdenIngresos_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Pesados_OrdenIngresos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ServicioPrestados_OrdenIngresos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_PagoPersonales_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Parametros_Rubros" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Parametros_Secciones" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Pesados_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Productos_TipoMercaderias" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Productos_UnidadBultos" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Proveedores_TipoDocIdentidades" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ReciboHonorarios_Proveedores" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ReciboHonorarios_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_RequerimientoProductos_Secciones" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_RequerimientoProductos_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Rubros_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ServicioPrestados_Rubros" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Tarifas_Rubros" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Secciones_SubAreas" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ServicioPrestados_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_ServicioPrestados_Usuarios1" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Tarifas_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_TipoCambio_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Transportistas_TipoDocIdentidades" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_TransferenciaNaves_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Transferencias_Usuarios" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_UnidadBultos_Unidades" ManuallyRouted="false" />
+        <AssociationConnector Association="AlcosaModel.FK_Vigilancias_Usuarios" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
